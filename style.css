@@ -1,0 +1,98 @@
+body{
+   line-height: 2.0;/* Set line spacing */
+}
+
+
+header, nav{
+    margin: 10px 10px;
+    padding: 10px 25px;
+      /* Set padding and margin */
+}
+nav ul li{
+    display: inline-block;
+    background-color: #F5C782;
+    margin: 0px 110px;
+    padding: 15px 25px;
+    border: 0px 40px;
+    font-size: 25px;
+    /* Set display, margin, padding, font-size, background-color */
+
+}
+
+nav a{
+   text-decoration: none;
+    /* Set text decoration*/
+}
+
+a:visited{
+    color: #000000;
+    /* Set color */
+
+}
+
+nav a.current{
+    text-decoration-style: wavy;
+    padding: 10px; 
+    text-transform: uppercase;
+    border-bottom: 3px none #000000;
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   /*Set font and font size*/
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
