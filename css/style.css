@@ -68,11 +68,10 @@ h1, h2, h3{
    display: grid;
    justify-content: centered;
    grid-template-columns: 30% 30% 30%;
-  
    grid-column-start: auto;
-   grid-row: ;
    background-color: #505459;
    border: 1px solid #000000;
+   border-radius: 45px;
    margin: 10px;
    column-gap: 50px;
    row-gap: 10px;
@@ -125,8 +124,8 @@ p{
 
 
 .grid ul li{
-    margin: 0px 0px 10px 8px;
-    line-height: 1.0; 
-    list-style-image: url("sketchbook.png");
+    margin: 0px 0px 10px 15px;
+    line-height: 1.0;
+    list-style-image: url("sketchbook.png") !important;
     /* Set margin, line-spacing, list styling  */
 }
